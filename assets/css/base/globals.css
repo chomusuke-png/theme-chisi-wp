@@ -60,10 +60,10 @@ body {
     max-width: 1200px;
     margin: 0 auto 60px auto; /* Margen inferior */
     padding: 0 20px;
-    
-    /* CAMBIO: Ahora usamos Grid igual que los widgets normales */
+
+    /* Grid a una sola columna: cada widget ocupa todo el ancho disponible */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: 30px;
 }
 
